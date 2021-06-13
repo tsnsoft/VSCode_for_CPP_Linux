@@ -15,5 +15,9 @@
     {
         "key": "ctrl+alt+m",
         "command": "-code-runner.stop"
+    },
+    {
+        "key": "ctrl+f4",
+        "command": "external.run"
     }
 ]

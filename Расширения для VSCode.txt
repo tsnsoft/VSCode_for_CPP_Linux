@@ -6,3 +6,4 @@ Russian - Code Spell Checker
 
 C/C++ Extension UI Themes
 vscode-github
+vscode-external

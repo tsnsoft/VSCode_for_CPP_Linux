@@ -59,11 +59,17 @@
     "C_Cpp.intelliSenseEngine": "Tag Parser",
     "editor.fontSize": 16,
     "terminal.integrated.fontSize": 16,
-    "workbench.colorTheme": "Monokai Dimmed",
     "git.enableSmartCommit": true,
     "git.autofetch": true,
     "C_Cpp.commentContinuationPatterns": [
     
         "/**"
+    ],
+    "workbench.colorTheme": "Visual Studio Dark",
+    "external.commands": [
+        {
+            "name": "wxFormBuilder",
+            "command": "/usr/bin/flatpak run --branch=master --arch=x86_64 --command=wxformbuilder --file-forwarding org.wxformbuilder.wxFormBuilder $FilePath$"
+          },
     ],
 }
