@@ -1,0 +1,9 @@
+C/C++ for Visual Studio Code
+Code Runner
+Spelling Checker for Visual Studio Code
+Russian - Code Spell Checker
+Языковой пакет для русского языка для VS Code
+
+C/C++ Extension UI Themes
+vscode-github
+vscode-external

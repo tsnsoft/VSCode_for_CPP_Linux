@@ -72,4 +72,10 @@
             "command": "/usr/bin/flatpak run --branch=master --arch=x86_64 --command=wxformbuilder --file-forwarding org.wxformbuilder.wxFormBuilder $FilePath$"
           },
     ],
+    "workbench.iconTheme": "vscode-icons",
+    "vsicons.dontShowNewVersionMessage": true,
+    "sync.gist": "d1ba75f42d7c8a3d271b0e76e617a2a3",
+    "telemetry.enableCrashReporter": false,
+    "editor.smoothScrolling": true,
+    "debug.inlineValues": true,
 }
