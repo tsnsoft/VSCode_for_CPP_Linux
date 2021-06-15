@@ -56,7 +56,6 @@
     "languageTool.language": "ru",
     "cSpell.language": " ru",
     "telemetry.enableTelemetry": false,
-    "C_Cpp.intelliSenseEngine": "Tag Parser",
     "editor.fontSize": 16,
     "terminal.integrated.fontSize": 16,
     "git.enableSmartCommit": true,
@@ -78,4 +77,6 @@
     "telemetry.enableCrashReporter": false,
     "editor.smoothScrolling": true,
     "debug.inlineValues": true,
+    "C_Cpp.updateChannel": "Insiders",
+    "C_Cpp.intelliSenseEngineFallback": "Enabled",
 }

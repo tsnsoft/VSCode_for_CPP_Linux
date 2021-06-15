@@ -5,7 +5,7 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "g++ - Сборка и отладка активного файла",
+            "name": "g++ - Сборка и отладка файлов",
             "type": "cppdbg",
             "request": "launch",
             "program": "${fileDirname}/${fileBasenameNoExtension}",
@@ -22,7 +22,31 @@
                     "ignoreFailures": true
                 }
             ],
-            "preLaunchTask": "C/C++: g++ сборка активного файла",
+            "preLaunchTask": "g++ - Сборка и отладка файлов",
+            "miDebuggerPath": "/usr/bin/gdb",
+            "sourceFileMap": {
+                "/build/glibc-eX1tMB": "/usr/src/glibc"
+            }
+        },
+        {
+            "name": "g++ - Сборка и отладка файлов с wxWidgets",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${fileDirname}/${fileBasenameNoExtension}",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "Включить автоматическое форматирование для gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "g++ - Сборка и отладка файлов с wxWidgets",
             "miDebuggerPath": "/usr/bin/gdb",
             "sourceFileMap": {
                 "/build/glibc-eX1tMB": "/usr/src/glibc"
